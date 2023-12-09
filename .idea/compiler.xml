@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="scalerSchemaJuly2022" />
         <module name="bookMyShow" />
+        <module name="lld-cab-booking" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bookMyShow" options="-parameters" />
+      <module name="lld-cab-booking" options="-parameters" />
       <module name="scalerSchemaJuly2022" options="-parameters" />
     </option>
   </component>

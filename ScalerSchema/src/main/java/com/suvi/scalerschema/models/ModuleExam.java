@@ -5,11 +5,11 @@ import javax.persistence.ManyToOne;
 import java.util.Date;
 
 @Entity
-public class ModuleExam extends BaseModel {
+public class ModuleExam extends BaseModel{
     @ManyToOne //Many for Module Exam (From above line) : One for Module (From below line)
     private Module module; //Cardinality between ModuleExam : Module => M : 1
-    // 1 Module exam has only 1 exam -                  1   :   1
-    // 1 Module can have many exams -                   M   :   1
+    // 1 Module Exam has only 1 Module -                1   :   1
+    // 1 Module can have many Module Exams -            M   :   1
     /*
      * Module with id 2 has exams with id (4,5,6)
      * => We will have ModuleExam objects like

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="a255ade6-8a70-47f4-86fe-beec1f6e6238" name="scaler_classes_db@localhost Mapping">
+      <data-sources db="cca0b5ad-e233-42ea-8241-47585ae34a55" ddl="2dea0dde-9f11-471f-82be-7241114fedca" />
+    </mapping>
+  </component>
+</project>
